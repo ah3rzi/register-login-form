@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif,Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+:root{
+    --green-heavy:#0bc94b;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    background: var(--green-heavy);
+}
+.wrapper{
+    position: relative;
+    max-width: 43rem;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 3.4rem;
+    border-radius: 0.6rem;
+    box-shadow: 0 0.3rem 0.7rem #01927f;
+    
+}
+.wrapper h2{
+    position: relative;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #333;
+}
+.wrapper h2::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0.3rem;
+    width: 2.6rem;
+    border-radius: 1.2rem;
+    background-color: var(--green-heavy);
+}
+.wrapper form{
+    margin-top: 3rem;
+}
+.wrapper form .input-box{
+    height: 5.2rem;
+    margin: 1.8rem 0;
+}
+form .input-box input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 1.5rem;
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #333;
+    border: 0.1rem solid #c7bebe;
+    border-bottom-width: 0.25rem;
+    border-radius: 0.6rem;
+}
+.input-box input:focus{
+    border-color: var(--green-heavy);
+}
+form .policy{
+    display: flex;
+    align-items: center;
+}
+form h3{
+    color: #707070;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+.check {
+    height: 25px;
+    width: 25px;
+    background-color: var(--green-heavy);
+  }
+.input-box.button input{
+    color: var(--green-heavy);
+    letter-spacing: 0.1rem;
+    border: 0.2rem solid ;
+    border-color: var(--green-heavy);
+    background: #fff;
+    cursor: pointer;
+}
+.input-box.button input:hover{
+    background-color: var(--green-heavy);
+    color: #fff;
+}
+form .text h3{
+    color: #333;
+    width: 100%;
+    text-align: center;
+}
+form .text h3 a {
+    color: var(--green-heavy);
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+form .text h3 a:hover{
+    text-decoration: underline;
+    
+}
+hr{
+    margin-top: 1rem;
+    margin-bottom: 1 rem;
+   border: 1px solid #01927f;
+}
+.footer-bottom p a{
+    color: var(--green-heavy);
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.footer-bottom p a:hover{
+    color: var(--green-heavy);
+    text-decoration: underline;
+    font-size: 1.1rem;
+}
